@@ -1,0 +1,246 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(assets/Rectangle\ 7.png);
+  background-color: #262626;
+  color: #FFFFFF;
+  padding-bottom: 1000px; 
+  padding-top: 40px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000; 
+  width: 100%;
+  height: 74px;
+  background: #2A2A2A66;
+  backdrop-filter: blur(40px);
+  display: flex;
+  align-items: center;
+  padding: 0px 60px;
+  color: #fff;
+}
+
+.logo {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 100%;
+}
+
+.menu-buttons {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menu-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-list-item {
+  margin: 0 20px;
+  transition: all 0.3s ease-in-out;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  padding: 4px 8px;
+  border-radius: 50px;
+}
+
+.menu-list-item:hover {
+  transform: scale(0.9);
+  background-color: #444;
+}
+
+.menu-list-item.active {
+  font-weight: bold;
+  background: #B886F6;
+  color: white;
+  
+}
+
+.heroimage {
+  padding: 20px 60px;
+}
+
+.heroimage img {
+  position: relative;
+  top: 50px;
+  height: auto;
+  border-radius: 50px;
+  display: block;
+  margin: 0 auto;
+}
+
+.about-section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px;
+  gap: 40px; 
+  padding-bottom: 0px;
+}
+
+.about-left {
+  max-width: 40%;
+  font-family: Medium;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  
+}
+
+.about-right {
+  max-width: 50%;
+  font-family: Bebas Neue;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 1.88%;
+  text-align: justify;
+  
+}
+
+.read-more {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #b382f5;
+  color: white;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+.sports-bar img{
+  width: 100%;
+  position: relative;
+  top: 200px; 
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0;
+  gap: 0;
+  position: relative;
+  top: 300px;
+}
+
+.gallery img{
+  width: 100%;
+  height: 100%;
+}
+
+.vision-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  gap: 40px;
+  color: white;
+  position: relative;
+  top: 400px;
+}
+
+.vision-text{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: -3.0%;
+  text-align: justify;      
+}
+
+.vision-text h2{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 100%;
+  letter-spacing: -3.5%;
+  text-align: justify;
+  
+}
+
+
+.hero-section {
+  position: relative;
+  margin-top: 500px;
+  width: 100%;
+  height: 100vh; 
+  background-image: url('assets/image9.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding-left: 80px; 
+}
+.hero-overlay {
+  max-width: 600px;
+}
+
+.hero-overlay h1 {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  font-family: 'Arial Black', sans-serif;
+}
+
+.hero-overlay p {
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-family: 'Arial', sans-serif;
+}
+
+.talk-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  background-color: #b28fff; 
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: background 0.3s ease;
+}
+
+.talk-button:hover {
+  background-color: #a078ff;
+}
+
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
